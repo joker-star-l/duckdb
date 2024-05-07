@@ -106,6 +106,7 @@ enum class ExpressionType : uint8_t {
 	// -----------------------------
 	FUNCTION = 140,
 	BOUND_FUNCTION = 141,
+	BOUND_ONNX = 142,
 
 	// -----------------------------
 	// Operators
@@ -196,6 +197,7 @@ enum class ExpressionClass : uint8_t {
 	BOUND_UNNEST = 40,
 	BOUND_LAMBDA = 41,
 	BOUND_LAMBDA_REF = 42,
+	BOUND_ONNX = 43,
 	//===--------------------------------------------------------------------===//
 	// Miscellaneous
 	//===--------------------------------------------------------------------===//
